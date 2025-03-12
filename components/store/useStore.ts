@@ -22,7 +22,7 @@ export const useStore = create<Store>((set) => ({
   windows: [],
   dockItems: [],
   
-  login: (username, password) => {
+  login: (username) => {
     // In a real app, this would validate credentials
     set({
       isLoggedIn: true,

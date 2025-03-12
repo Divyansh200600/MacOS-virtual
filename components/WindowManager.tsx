@@ -1,7 +1,6 @@
 import React from 'react';
 import { Rnd } from 'react-rnd';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Maximize2, Minimize2, X } from 'lucide-react';
 import { useStore } from './store/useStore';
 
 export const WindowManager: React.FC = () => {

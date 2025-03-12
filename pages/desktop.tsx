@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { Dock } from '../components/Dock';
 import { MenuBar } from '../components/MenuBar';
 import { WindowManager } from '../components/WindowManager';
